@@ -10,7 +10,6 @@ It suggests movies to users based on similarity scores calculated from movie fea
 - Recommend movies similar to a given movie title  
 - Simple and interactive **Streamlit web interface**  
 - Pre-trained similarity model for fast recommendations  
-- Fetches **movie posters** using the TMDB API  
 - Runs locally or can be deployed on Streamlit Cloud
 
 ---
@@ -22,7 +21,7 @@ It suggests movies to users based on similarity scores calculated from movie fea
 2. Combines features like **overview**, **genres**, **keywords**, **cast**, and **crew** into a single text column  
 
 ### 🔍 Feature Extraction
-1. Uses **TF-IDF Vectorization** or **Count Vectorization** to convert text data into numerical vectors  
+1. Uses **Count Vectorization** to convert text data into numerical vectors  
 
 ### 📈 Similarity Calculation
 1. Calculates **cosine similarity** between movie vectors to find the most similar movies  
