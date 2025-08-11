@@ -34,7 +34,7 @@ It suggests movies to users based on similarity scores calculated from movie fea
 - **Python Programming** – Writing efficient, modular, and readable code  
 - **Data Preprocessing** – Cleaning and preparing movie datasets for analysis  
 - **Feature Engineering** – Combining text-based features like genres, keywords, cast, and crew  
-- **Natural Language Processing (NLP)** – Using TF-IDF or Count Vectorization for text representation  
+- **Natural Language Processing (NLP)** – Using Count Vectorization for text representation  
 - **Machine Learning** – Implementing cosine similarity for recommendations  
 - **Pickle Serialization** – Saving and loading trained models/data for fast inference  
 - **Streamlit Development** – Creating an interactive web app for recommendations  
