@@ -15,17 +15,20 @@ It suggests movies to users based on similarity scores calculated from movie fea
 
 ---
 
-##📊 How It Works
-#Data Preprocessing
-1.Reads a dataset of movies
-2.Combines features like overview, genres, keywords, cast, and crew
+## 📊 How It Works
 
-#Feature Extraction
-1.Uses TF-IDF Vectorization or Count Vectorization
+### 🗂 Data Preprocessing
+1. Reads a dataset of movies  
+2. Combines features like **overview**, **genres**, **keywords**, **cast**, and **crew** into a single text column  
 
-#Similarity Calculation
-1.Uses cosine similarity to find the most similar movies
+### 🔍 Feature Extraction
+1. Uses **TF-IDF Vectorization** or **Count Vectorization** to convert text data into numerical vectors  
 
-#Streamlit UI
-1.User selects a movie from a dropdown
+### 📈 Similarity Calculation
+1. Calculates **cosine similarity** between movie vectors to find the most similar movies  
+
+### 💻 Streamlit UI
+1. User selects a movie from a dropdown menu  
+
+
 
